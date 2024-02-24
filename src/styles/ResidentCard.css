@@ -1,0 +1,26 @@
+.resident-card {
+  background-color: #000000;
+  border: 3px solid #191919;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.resident-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-item {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.info-item span:first-child {
+  font-weight: bold;
+}
+
+.info-item span:last-child {
+  color: #ffffff;
+}

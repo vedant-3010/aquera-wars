@@ -1,0 +1,44 @@
+.planets-flex-container{
+  margin-top: 30px;
+
+}
+.planets-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #000000;
+  box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.pagination button {
+  background-color: #eeeeee;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 0.5rem 1rem;
+  border-radius: 40px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+
+.pagination button:hover {
+  background-color: #ffe81f;
+}
+
+.pagination button:disabled {
+  background-color: #777777;
+  cursor: not-allowed;
+}
